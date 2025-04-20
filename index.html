@@ -216,288 +216,78 @@
         </div>
     </section>
 
-    <!-- Documentos Section Mejorado con Bootstrap y target="_blank" -->
-    <div class="section p-2" id="documentos">
-        <div class="row m-0">
-            <div class="col-md-12 text-center">
-                <h2>Documentos</h2>
+    <section class="section bg-light">
+        <div class="row m-2">
+            <div class="col-12">
+                <h2 class="text-center">Documentos</h2>
             </div>
         </div>
+        <div class="row m-2">
+            <div class="col-12">
+                <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Atención Farmacéutica
+                </button>
+            </div>
+            <div class="collapse mt-2" id="collapseExample">
+                <div class="card card-body">
+                    <h4>Unidad 1</h4>
+                    <span><a href="#" target="_blank">Conceptos y Herramientas</a></span>
+                    <span><a href="#" target="_blank">Modalidades de la Atención Farmacéutica</a></span>
+                    <span><a href="#" target="_blank">Servicios farmacéuticos Orientados al Paciente</a></span>
 
-        <p class="d-inline-flex gap-1">
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
-                Link with href
-            </a>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample">
-                Button with data-bs-target
-            </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
-                the user activates the relevant trigger.
-            </div>
-        </div>
-        <div class="row m-0 pb-3">
-            <div class="col-lg-12">
-                <div class="accordion" id="accordionDocumentos" role="tablist">
-                    <!-- Ejemplo de una tarjeta de documentos -->
-                    <div class="card mb-2">
-                        <div class="card-header" id="headingAtencion">
-                            <h5 class="mb-0">
-                                <button class="btn btn-outline-primary w-100 text-start" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseAtencion" aria-expanded="false"
-                                    aria-controls="collapseAtencion" role="tab">
-                                    Atención Farmacéutica
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseAtencion" class="collapse" aria-labelledby="headingAtencion"
-                            data-bs-parent="#accordionDocumentos">
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <strong>Unidad 1</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/conceptos_y_herramientas.ppt"
-                                                    target="_blank">Conceptos y Herramientas</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/madalidades_de_la_far.ppt"
-                                                    target="_blank">Modalidades de la Atención Farmacéutica</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/servicios_far_orientados_al_paciente.ppt"
-                                                    target="_blank">Servicios Farmacéuticos Orientados al paciente</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 2</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/nom_farmacovigilancia.pptx"
-                                                    target="_blank">Norma Oficial Mexicana para la Farmacovigilancia</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 3</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part1.pptx"
-                                                    target="_blank">Ley General de Salud Parte 1</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part2.pptx"
-                                                    target="_blank">Ley General de Salud Parte 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 4</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/dispensacion_medicamentos.pptx"
-                                                    target="_blank">Dispensación de Medicamentos</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/rol_farmaceutico.ppt"
-                                                    target="_blank">Rol del Farmacéutico</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/generalidades_afin_farm.pptx"
-                                                    target="_blank">Generalidades afines a la Farmacéutica</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 5</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/normas_farmacias.pptm"
-                                                    target="_blank">Normas que Rigen el Funcionamiento de una
-                                                    Farmacia</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Más secciones se agregarían aquí con el mismo formato -->
-                    <!-- Puedes seguir el mismo patrón para Farmacología I, Clínica, Micología e Infectología -->
+                    <h4 class="mt-2">Unidad 2</h4>
+                    <span><a href="#" target="_blank">Norma Oficial Mexicana para la Farmacovigilancia</a></span>
+
+                    <h4 class="mt-2">Unidad 3</h4>
+                    <span><a href="#" target="_blank">Ley General de Salud Parte 1</a></span>
+                    <span><a href="#" target="_blank">Ley General de Salud Parte 2</a></span>
+
+                    <h4 class="mt-2">Unidad 4</h4>
+                    <span><a href="#" target="_blank">Dispensación de Medicamentos</a></span>
+                    <span><a href="#" target="_blank">Rol farmacéutico</a></span>
+                    <span><a href="#" target="_blank">Generalidades a fines a la Farmacéutica</a></span>
+
+                    <h4 class="mt-2">Unidad 5</h4>
+                    <span><a href="#" target="_blank">Normas que Rigen el Funcionamiento de una Farmacia</a></span>
                 </div>
             </div>
         </div>
-        <div class="row m-0 pb-3">
-            <div class="col-lg-12">
-                <div class="accordion" id="accordionDocumentos2" role="tablist">
-                    <!-- Ejemplo de una tarjeta de documentos -->
-                    <div class="card mb-2">
-                        <div class="card-header" id="headingAtencion">
-                            <h5 class="mb-0">
-                                <button class="btn btn-outline-primary w-100 text-start" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseAtencion2" aria-expanded="false"
-                                    aria-controls="collapseAtencion2" role="tab">
-                                    Atención Farmacéutica
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseAtencion2" class="collapse" aria-labelledby="headingAtencion"
-                            data-bs-parent="#accordionDocumentos2">
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <strong>Unidad 1</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/conceptos_y_herramientas.ppt"
-                                                    target="_blank">Conceptos y Herramientas</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/madalidades_de_la_far.ppt"
-                                                    target="_blank">Modalidades de la Atención Farmacéutica</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/servicios_far_orientados_al_paciente.ppt"
-                                                    target="_blank">Servicios Farmacéuticos Orientados al paciente</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 2</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/nom_farmacovigilancia.pptx"
-                                                    target="_blank">Norma Oficial Mexicana para la Farmacovigilancia</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 3</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part1.pptx"
-                                                    target="_blank">Ley General de Salud Parte 1</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part2.pptx"
-                                                    target="_blank">Ley General de Salud Parte 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 4</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/dispensacion_medicamentos.pptx"
-                                                    target="_blank">Dispensación de Medicamentos</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/rol_farmaceutico.ppt"
-                                                    target="_blank">Rol del Farmacéutico</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/generalidades_afin_farm.pptx"
-                                                    target="_blank">Generalidades afines a la Farmacéutica</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 5</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/normas_farmacias.pptm"
-                                                    target="_blank">Normas que Rigen el Funcionamiento de una
-                                                    Farmacia</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Más secciones se agregarían aquí con el mismo formato -->
-                    <!-- Puedes seguir el mismo patrón para Farmacología I, Clínica, Micología e Infectología -->
+
+        <div class="row m-2">
+            <div class="col-12">
+                <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                    Farmacología
+                </button>
+            </div>
+            <div class="collapse mt-2" id="collapseExample2">
+                <div class="card card-body">
+                    <h4>Apuntes</h4>
+                    <span><a href="#" target="_blank">Apuntes de Farmacología</a></span>
+                    <span><a href="#" target="_blank">Bookmarks</a></span>
+
+                    <h4 class="mt-2">Programa y Manual de Prácticas</h4>
+                    <span><a href="#" target="_blank">Manual de Practicas</a></span>
+                    <span><a href="#" target="_blank">Programa de Farmacéutica 1</a></span>
+
+                    <h4 class="mt-2">Unidad 3</h4>
+                    <span><a href="#" target="_blank">Ley General de Salud Parte 1</a></span>
+                    <span><a href="#" target="_blank">Ley General de Salud Parte 2</a></span>
+
+                    <h4 class="mt-2">Diapositivas</h4>
+                    <span><a href="#" target="_blank">Generalidad de Farmacología</a></span>
+                    <span><a href="#" target="_blank">Farmacocinetica (Absorción)</a></span>
+                    <span><a href="#" target="_blank">Farmacocinetica (Distribución)</a></span>
+                    <span><a href="#" target="_blank">Farmacocinetica (Biotransformación)</a></span>
+                    <span><a href="#" target="_blank">Farmacocinetica (Eliminación)</a></span>
+                    <span><a href="#" target="_blank">Farmacocinetica Integral</a></span>
+                    <span><a href="#" target="_blank">Farmacodinamia</a></span>
+                    <span><a href="#" target="_blank">Farmacometria</a></span>
                 </div>
             </div>
         </div>
-        <div class="row m-0 pb-3">
-            <div class="col-lg-12">
-                <div class="accordion" id="accordionDocumentos2" role="tablist">
-                    <!-- Ejemplo de una tarjeta de documentos -->
-                    <div class="card mb-2">
-                        <div class="card-header" id="headingAtencion">
-                            <h5 class="mb-0">
-                                <button class="btn btn-outline-primary w-100 text-start" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseAtencion2" aria-expanded="false"
-                                    aria-controls="collapseAtencion2" role="tab">
-                                    Atención Farmacéutica
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseAtencion2" class="collapse" aria-labelledby="headingAtencion"
-                            data-bs-parent="#accordionDocumentos2">
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <strong>Unidad 1</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/conceptos_y_herramientas.ppt"
-                                                    target="_blank">Conceptos y Herramientas</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/madalidades_de_la_far.ppt"
-                                                    target="_blank">Modalidades de la Atención Farmacéutica</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/servicios_far_orientados_al_paciente.ppt"
-                                                    target="_blank">Servicios Farmacéuticos Orientados al paciente</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 2</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/nom_farmacovigilancia.pptx"
-                                                    target="_blank">Norma Oficial Mexicana para la Farmacovigilancia</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 3</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part1.pptx"
-                                                    target="_blank">Ley General de Salud Parte 1</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part2.pptx"
-                                                    target="_blank">Ley General de Salud Parte 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 4</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/dispensacion_medicamentos.pptx"
-                                                    target="_blank">Dispensación de Medicamentos</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/rol_farmaceutico.ppt"
-                                                    target="_blank">Rol del Farmacéutico</a></li>
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/generalidades_afin_farm.pptx"
-                                                    target="_blank">Generalidades afines a la Farmacéutica</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <strong>Unidad 5</strong>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><a
-                                                    href="https://abrahamchoel.com/archivos/normas_farmacias.pptm"
-                                                    target="_blank">Normas que Rigen el Funcionamiento de una
-                                                    Farmacia</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Más secciones se agregarían aquí con el mismo formato -->
-                    <!-- Puedes seguir el mismo patrón para Farmacología I, Clínica, Micología e Infectología -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+    </section>
 
     <div class="section bg-dark" id="idSection">
         <footer class="p-1 text-center" id="footer">
