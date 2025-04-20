@@ -210,7 +210,7 @@
                 <!-- Item 6 -->
                 <div class="timeline-item">
                     <h5><strong>Manejo de tecnologías y plataformas</strong></h5>
-                    <p>Office (Excel, Word, PowerPoint), Zoom, Teams, Webex, Meet, Dropbox y bases de datos.</p>
+                    <p>Office (Excel, Word, PowerPoint), Zoom, Teams, Webex, Google Meet.</p>
                 </div>
             </div>
         </div>
@@ -221,6 +221,23 @@
         <div class="row m-0">
             <div class="col-md-12 text-center">
                 <h2>Documentos</h2>
+            </div>
+        </div>
+
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Button with data-bs-target
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
             </div>
         </div>
         <div class="row m-0 pb-3">
@@ -393,7 +410,94 @@
                 </div>
             </div>
         </div>
+        <div class="row m-0 pb-3">
+            <div class="col-lg-12">
+                <div class="accordion" id="accordionDocumentos2" role="tablist">
+                    <!-- Ejemplo de una tarjeta de documentos -->
+                    <div class="card mb-2">
+                        <div class="card-header" id="headingAtencion">
+                            <h5 class="mb-0">
+                                <button class="btn btn-outline-primary w-100 text-start" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseAtencion2" aria-expanded="false"
+                                    aria-controls="collapseAtencion2" role="tab">
+                                    Atención Farmacéutica
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseAtencion2" class="collapse" aria-labelledby="headingAtencion"
+                            data-bs-parent="#accordionDocumentos2">
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <strong>Unidad 1</strong>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/conceptos_y_herramientas.ppt"
+                                                    target="_blank">Conceptos y Herramientas</a></li>
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/madalidades_de_la_far.ppt"
+                                                    target="_blank">Modalidades de la Atención Farmacéutica</a></li>
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/servicios_far_orientados_al_paciente.ppt"
+                                                    target="_blank">Servicios Farmacéuticos Orientados al paciente</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Unidad 2</strong>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/nom_farmacovigilancia.pptx"
+                                                    target="_blank">Norma Oficial Mexicana para la Farmacovigilancia</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Unidad 3</strong>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part1.pptx"
+                                                    target="_blank">Ley General de Salud Parte 1</a></li>
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/ley_gen_salud_part2.pptx"
+                                                    target="_blank">Ley General de Salud Parte 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Unidad 4</strong>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/dispensacion_medicamentos.pptx"
+                                                    target="_blank">Dispensación de Medicamentos</a></li>
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/rol_farmaceutico.ppt"
+                                                    target="_blank">Rol del Farmacéutico</a></li>
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/generalidades_afin_farm.pptx"
+                                                    target="_blank">Generalidades afines a la Farmacéutica</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Unidad 5</strong>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a
+                                                    href="https://abrahamchoel.com/archivos/normas_farmacias.pptm"
+                                                    target="_blank">Normas que Rigen el Funcionamiento de una
+                                                    Farmacia</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más secciones se agregarían aquí con el mismo formato -->
+                    <!-- Puedes seguir el mismo patrón para Farmacología I, Clínica, Micología e Infectología -->
+                </div>
+            </div>
+        </div>
     </div>
+
+
 
     <div class="section bg-dark" id="idSection">
         <footer class="p-1 text-center" id="footer">
@@ -402,8 +506,8 @@
                     Todos los derechos reservados© 2025
                 </p>
                 <p style="color: white;">
-                    Hecho por <a href="mailto:alexisgomez_96@hotmail.com" style="color: white;"
-                        target="_blank">Abraham Alexis</a>
+                    Hecho por <a href="mailto:alexisgomez_96@hotmail.com" style="color: white;" target="_blank">Abraham
+                        Alexis</a>
                 </p>
             </div>
         </footer>
