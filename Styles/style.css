@@ -1,21 +1,45 @@
+.exp-card img {
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.exp-card {
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+  background-color: #fff;
+}
+
+.exp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.exp-card .badge {
+  font-size: 0.8rem;
+}
+
+
 .timeline {
-    position: relative;
-    margin-left: 20px;
-    padding-left: 20px;
-    border-left: 4px solid #007bff;
-  }
-  .timeline-item {
-    margin-bottom: 30px;
-    position: relative;
-  }
-  .timeline-item::before {
-    content: "";
-    position: absolute;
-    left: -12px;
-    top: 6px;
-    width: 14px;
-    height: 14px;
-    background-color: #007bff;
-    border-radius: 50%;
-    border: 2px solid white;
-  }
+  position: relative;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 4px solid #007bff;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background-color: #007bff;
+  border-radius: 50%;
+  border: 2px solid white;
+}
