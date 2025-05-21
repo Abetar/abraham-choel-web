@@ -1,3 +1,7 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+
 .exp-card img {
   height: 80px;
   object-fit: contain;
