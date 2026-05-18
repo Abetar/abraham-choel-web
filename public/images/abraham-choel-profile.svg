@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Retrato profesional academico</title>
+  <desc id="desc">Ilustracion sobria de perfil academico para reemplazar por fotografia profesional.</desc>
+  <rect width="1200" height="1500" fill="#eef4f8"/>
+  <rect x="80" y="80" width="1040" height="1340" fill="#ffffff" stroke="#d8e6ef" stroke-width="3"/>
+  <circle cx="600" cy="470" r="210" fill="#d8e6ef"/>
+  <path d="M450 450c0-93 67-164 150-164s150 71 150 164c0 101-67 188-150 188s-150-87-150-188Z" fill="#173d59"/>
+  <path d="M252 1210c46-248 184-385 348-385s302 137 348 385" fill="#0b2438"/>
+  <path d="M438 1220l162-318 162 318" fill="#ffffff" opacity=".96"/>
+  <path d="M515 965h170l-85 118-85-118Z" fill="#d8e6ef"/>
+  <rect x="214" y="1285" width="772" height="3" fill="#d8e6ef"/>
+  <text x="600" y="1338" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="700" fill="#0b2438">Abraham Gomez Choel</text>
+  <text x="600" y="1392" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5" fill="#2d5d7b">PERFIL ACADEMICO</text>
+</svg>
