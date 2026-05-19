@@ -21,9 +21,7 @@ export function AcademicJsonLd() {
     ],
     knowsAbout: siteConfig.keywords,
     sameAs: [
-      siteConfig.social.linkedin,
-      siteConfig.social.researchGate,
-      siteConfig.social.googleScholar
+      siteConfig.social.linkedin
     ]
   };
 
