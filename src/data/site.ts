@@ -5,7 +5,7 @@ export const siteConfig = {
   academicTitle: "Docente universitario y profesional en ciencias quimico-biologicas",
   specialty: "Bioquimica clinica, diagnostico de laboratorio y farmacovigilancia",
   institution: "Universidad Autonoma de Chiapas | IMSS",
-  email: "contacto@abrahamchoel.com",
+  email: "gomezcuauhtemoc@outlook.com",
   url: "https://abrahamchoel.com",
   location: "Chiapas, Mexico",
   keywords: [
@@ -25,9 +25,7 @@ export const siteConfig = {
   "micologia clinica"
   ],
   social: {
-    linkedin: "https://www.linkedin.com/",
-    researchGate: "https://www.researchgate.net/",
-    googleScholar: "https://scholar.google.com/"
+    linkedin: "https://www.linkedin.com/in/abraham-gomez-choel-758296123/"
   }
 };
 
