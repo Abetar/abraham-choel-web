@@ -60,7 +60,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative mx-auto aspect-[4/5] max-w-md overflow-hidden rounded border border-slate-200 bg-white shadow-soft">
                 <Image
-                  src="/images/abraham-choel-profile.svg"
+                  src="/images/abraham_choel.png"
                   alt="Retrato profesional de Abraham Gomez Choel"
                   fill
                   priority
