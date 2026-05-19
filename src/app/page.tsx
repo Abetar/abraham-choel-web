@@ -211,8 +211,6 @@ export default function HomePage() {
                 <div className="mt-5 grid gap-3">
                   <a className="font-semibold text-navy-900 hover:text-navy-700" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
                   <a className="font-semibold text-navy-900 hover:text-navy-700" href={siteConfig.social.linkedin}>LinkedIn</a>
-                  <a className="font-semibold text-navy-900 hover:text-navy-700" href={siteConfig.social.researchGate}>ResearchGate</a>
-                  <a className="font-semibold text-navy-900 hover:text-navy-700" href={siteConfig.social.googleScholar}>Google Scholar</a>
                 </div>
               </div>
               <form className="grid gap-4" aria-label="Formulario de contacto">
