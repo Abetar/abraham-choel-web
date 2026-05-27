@@ -36,7 +36,7 @@ export const resources: StudentResource[] = [
     date: "2026-02-08",
     type: "ZIP",
     unit: "Farmacologia",
-    fileUrl: "/downloads/farmacologia-1.zip"
+    fileUrl: "https://1drv.ms/f/c/e390674a3879c5de/IgDmeRk76qzgRq3y_Ws9ts8PAZNHTds5QfSKNkwz7N97ghs?e=NQCYeU"
   },
   {
     id: "farmacologia-2",
@@ -45,7 +45,7 @@ export const resources: StudentResource[] = [
     date: "2026-02-20",
     type: "ZIP",
     unit: "Farmacologia",
-    fileUrl: "/downloads/farmacologia-2.zip"
+    fileUrl: "https://1drv.ms/f/c/e390674a3879c5de/IgDVSiVuIEO9QKSITOsqdAP-AWuG56WJSVR2QCOLDU4hdsI?e=mnezip"
   },
   {
     id: "infectologia-clinica",
@@ -63,6 +63,6 @@ export const resources: StudentResource[] = [
     date: "2026-03-12",
     type: "ZIP",
     unit: "Micologia clinica",
-    fileUrl: "/downloads/micologia-clinica.zip"
+    fileUrl: "https://1drv.ms/f/c/e390674a3879c5de/IgBYw4AsPl7RQZx3G9Vw_UewAXmmEkoBjXjPAB24opxzMqw?e=NMLK2s"
   }
 ];
